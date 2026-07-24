@@ -1,56 +1,77 @@
 # 👓 Lenskart Sales Analytics Dashboard
 
-An interactive **Power BI Sales Analytics Dashboard** built using a Lenskart sales dataset to analyze business performance, customer behavior, product categories, and sales trends.
+![Dashboard Preview](Dashboard.png)
+
+## 📌 Project Overview
+
+This project analyzes Lenskart sales data using **SQL** and **Power BI** to uncover business insights and visualize key performance metrics.
+
+The workflow includes:
+- Data exploration and analysis using SQL
+- Business problem solving with SQL
+- Interactive dashboard development in Power BI
 
 ---
 
-## 📊 Dashboard Preview
+## 🚀 Dashboard Highlights
 
-> Add your dashboard screenshot here (Dashboard.png)
-
----
-
-## 🛠️ Tools & Technologies
-
-- Power BI
-- Power Query
-- DAX
-- CSV Dataset
-- SQL (Data Analysis)
-
----
-
-## 📈 Key Performance Indicators (KPIs)
-
-- 💰 Total Revenue
-- 📦 Total Orders
-- 📊 Total Quantity Sold
-- 🛒 Average Order Value
-- 🎯 Average Discount %
+- Total Revenue
+- Total Orders
+- Total Quantity Sold
+- Average Order Value
+- Average Discount %
+- Revenue by Product Category
+- Monthly Revenue Trend
+- Top Cities by Revenue
+- Revenue by Payment Mode
+- Revenue by Sales Channel
+- Orders by Customer Gender
+- Revenue by Customer Age Group
+- Interactive Slicers (Month, State, Sales Channel)
 
 ---
 
-## 📌 Dashboard Features
+## 🛠 SQL Concepts Covered
 
+- SELECT Statements
+- WHERE, ORDER BY, GROUP BY
+- Aggregate Functions
+- CASE Statements
+- Joins (INNER, LEFT, RIGHT)
+- Subqueries
+- Common Table Expressions (CTEs)
+- Recursive CTEs
+- Window Functions
+- Ranking Functions
+- Running Totals
+- Business Case Queries
+- Sales Analysis Queries
+
+---
+
+## 📊 Power BI Features
+
+- Data Modeling
+- DAX Measures
+- KPI Cards
+- Bar Charts
+- Line Charts
+- Donut Charts
 - Interactive Slicers
-  - Month
-  - State
-  - Sales Channel
-
-- Revenue Analysis
-  - Revenue by Product Category
-  - Monthly Revenue Trend
-  - Top Cities by Revenue
-
-- Customer Analysis
-  - Revenue by Customer Age Group
-  - Orders by Customer Gender
-
-- Sales Insights
-  - Revenue by Payment Mode
-  - Revenue by Sales Channel
+- Dashboard Design
+- Data Visualization
 
 ---
+
+## 🧰 Tools Used
+
+- SQL
+- Power BI
+- CSV Dataset
+- Git & GitHub
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -63,34 +84,24 @@ Lenskart_Sales_Analytics/
 └── README.md
 ```
 
-## 📁 Dataset
+---
 
-- Source: Practice Dataset
-- Format: CSV
+## 📈 Key Business Questions Solved
+
+- Which product categories generate the highest revenue?
+- Which cities contribute the most sales?
+- Which payment methods are most preferred?
+- What are the monthly sales trends?
+- Which customer age groups generate maximum revenue?
+- What is the average order value?
+- Which sales channel performs better?
+- Customer segmentation using SQL
+- Ranking top-performing products and cities
+- Revenue trend analysis using Window Functions
 
 ---
 
-## 🧮 SQL
-
-This repository also contains SQL queries used for exploring and analyzing the sales dataset.
-
-Topics covered:
-- SELECT
-- WHERE
-- GROUP BY
-- ORDER BY
-- Aggregate Functions
-- Filtering
-
----
-
-## 📷 Dashboard Screenshot
-
-(Add Dashboard.png here)
-
----
-
-## 🚀 Author
+## 📬 Author
 
 **Kartik Mittal**
 
