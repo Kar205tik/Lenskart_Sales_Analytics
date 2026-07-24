@@ -54,15 +54,14 @@ An interactive **Power BI Sales Analytics Dashboard** built using a Lenskart sal
 
 ## 📂 Repository Structure
 
-```
+---
 Lenskart_Sales_Analytics/
 │
-├── lensu.pbix
+├── Lenskart_Sales_Dashboard.pbix
 ├── Dashboard.png
-├── lenskart data.csv
-├── lens.sql
+├── Lenskart_Sales_Dataset.csv
+├── Lenskart_SQL_Queries.sql
 └── README.md
-```
 
 ---
 
