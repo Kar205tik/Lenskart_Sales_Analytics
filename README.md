@@ -51,10 +51,9 @@ An interactive **Power BI Sales Analytics Dashboard** built using a Lenskart sal
   - Revenue by Sales Channel
 
 ---
-
 ## 📂 Repository Structure
 
----
+```text
 Lenskart_Sales_Analytics/
 │
 ├── Lenskart_Sales_Dashboard.pbix
@@ -62,8 +61,7 @@ Lenskart_Sales_Analytics/
 ├── Lenskart_Sales_Dataset.csv
 ├── Lenskart_SQL_Queries.sql
 └── README.md
-
----
+```
 
 ## 📁 Dataset
 
