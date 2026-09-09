@@ -2,7 +2,7 @@
 
 # 👓 Lenskart Sales Analytics & Forecasting Dashboard
 
-![Dashboard Preview](C:\Users\kartik\OneDrive\Desktop\lenskart)
+![Dashboard Preview](images/Dashboard.png)
 
 ## 📌 Project Overview
 
