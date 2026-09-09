@@ -1,34 +1,39 @@
 🔗 **Live Dashboard:** https://lenskartsalesanalytics-jw4vbk3f4g76zjjqsm3wjq.streamlit.app
 
-# 👓 Lenskart Sales Analytics Dashboard
+# 👓 Lenskart Sales Analytics & Forecasting Dashboard
 
 ![Dashboard Preview](Dashboard.png)
 
 ## 📌 Project Overview
 
-This project analyzes Lenskart sales data using **SQL** and **Power BI** to uncover business insights and visualize key performance metrics.
+This project is an end-to-end sales analytics solution built on 150,000+ Lenskart retail transactions. It moves from descriptive analysis to predictive forecasting to a live, AI-powered dashboard.
 
 The workflow includes:
-- Data exploration and analysis using SQL
-- Business problem solving with SQL
-- Interactive dashboard development in Power BI
+- Data exploration and business problem-solving using **SQL**
+- Interactive dashboard development in **Power BI**
+- Time-series **forecasting** using Python and scikit-learn
+- A live, interactive dashboard built with **Streamlit**
+- **AI-generated business insights** using the Google Gemini API
 
 ---
 
-## 🚀 Dashboard Highlights
+## 🚀 Live Dashboard Highlights
 
-- Total Revenue
-- Total Orders
-- Total Quantity Sold
-- Average Order Value
-- Average Discount %
-- Revenue by Product Category
+- Total Sales, Total Orders, Average Order Value (real-time KPIs)
+- Monthly sales trend visualization (2022–2025)
+- 3-month sales forecast using a Linear Regression model
+- AI-generated business insight and actionable recommendation, refreshed on demand
+
+---
+
+## 📊 Power BI Dashboard Highlights
+
+- Total Revenue, Total Orders, Total Quantity Sold
+- Average Order Value, Average Discount %
+- Revenue by Product Category, Sales Channel, Payment Mode
 - Monthly Revenue Trend
 - Top Cities by Revenue
-- Revenue by Payment Mode
-- Revenue by Sales Channel
-- Orders by Customer Gender
-- Revenue by Customer Age Group
+- Orders by Customer Gender & Age Group
 - Interactive Slicers (Month, State, Sales Channel)
 
 ---
@@ -65,26 +70,47 @@ The workflow includes:
 
 ---
 
+## 🤖 Python, Forecasting & AI Layer
+
+- **Data pipeline:** pandas for loading, cleaning, and aggregating monthly sales
+- **Forecasting model:** scikit-learn Linear Regression trained on 48 months of sales data to predict the next 3 months of revenue
+- **Key insight discovered:** a consistent sales dip every February across all 4 years, indicating a post-holiday demand slump
+- **AI-generated insights:** forecast data is passed to the Google Gemini API, which generates a live business insight and actionable recommendation
+- **Deployment:** the full dashboard is built with Streamlit and deployed publicly on Streamlit Community Cloud
+
+---
+
 ## 🧰 Tools Used
 
-- SQL
+- SQL (PostgreSQL)
 - Power BI
-- CSV Dataset
+- Python (pandas, scikit-learn, matplotlib)
+- Streamlit
+- Google Gemini API
 - Git & GitHub
 
 ---
 
 ## 📂 Repository Structure
 
-```text
+
 Lenskart_Sales_Analytics/
 │
-├── Lenskart_Sales_Dashboard.pbix
-├── Dashboard.png
-├── Lenskart_Sales_Dataset.csv
-├── Lenskart_SQL_Queries.sql
+├── sql/
+│   └── Lenskart_SQL_Queries.sql
+├── powerbi/
+│   └── Lenskart_Sales_Dashboard.pbix
+├── python/
+│   ├── fetch_data.py
+│   └── forecast.py
+├── images/
+│   └── Dashboard.png
+├── data/
+│   └── Lenskart_Sales_Dataset.csv
+├── app.py
+├── requirements.txt
 └── README.md
-```
+
 
 ---
 
@@ -93,13 +119,14 @@ Lenskart_Sales_Analytics/
 - Which product categories generate the highest revenue?
 - Which cities contribute the most sales?
 - Which payment methods are most preferred?
-- What are the monthly sales trends?
+- What are the monthly sales trends, and what will the next 3 months look like?
 - Which customer age groups generate maximum revenue?
 - What is the average order value?
 - Which sales channel performs better?
 - Customer segmentation using SQL
 - Ranking top-performing products and cities
 - Revenue trend analysis using Window Functions
+- Is there a predictable seasonal pattern the business should plan around?
 
 ---
 
