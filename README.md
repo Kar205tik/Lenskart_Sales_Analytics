@@ -2,7 +2,7 @@
 
 # 👓 Lenskart Sales Analytics & Forecasting Dashboard
 
-![Dashboard Preview](Dashboard.png)
+![Dashboard Preview](C:\Users\kartik\OneDrive\Desktop\lenskart)
 
 ## 📌 Project Overview
 
@@ -110,8 +110,6 @@ Lenskart_Sales_Analytics/
 ├── app.py
 ├── requirements.txt
 └── README.md
-
-
 ---
 
 ## 📈 Key Business Questions Solved
