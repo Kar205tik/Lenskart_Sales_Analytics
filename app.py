@@ -11,7 +11,7 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 st.title("📊 Lenskart Sales Forecast Dashboard")
 
 # Data load
-df = pd.read_csv("data/Lenskart_Sales_Dataset.csv")
+df = pd.read_csv("lenskart dataset.csv")
 df['order_date'] = pd.to_datetime(df['order_date'])
 df['month'] = df['order_date'].dt.to_period('M')
 monthly_sales = df.groupby('month')['net_sales_amount'].sum().reset_index()
